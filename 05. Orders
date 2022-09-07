@@ -1,4 +1,4 @@
-```ruby
+```python
 total_price = 0
 number_of_orders = int(input())
 
