@@ -3,12 +3,11 @@ days_adventure = int(input())
 coins = 0
 
 for day in range(1, days_adventure + 1):
-
-    if day % 10 == 0:
         # Every 10th (tenth) day at the start of the day, 2 (two) of your companions leave.
+    if day % 10 == 0:
         companions -= 2
+        # Every 15th (fifteenth) day 5 (five) new companions are joined at the beginning of the day
     if day % 15 == 0:
-        # Every 15th (fifteenth) day 5 (five) new companions are joined at the beginning of the day.
         companions += 5
 
     # Every day, you earn 50 coins, but you also spend 2 coins per companion for food.
