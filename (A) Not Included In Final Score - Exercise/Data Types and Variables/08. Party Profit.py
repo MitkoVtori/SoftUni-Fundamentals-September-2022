@@ -1,3 +1,4 @@
+companions = int(input())
 days_adventure = int(input())
 coins = 0
 
