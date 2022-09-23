@@ -10,4 +10,4 @@ https://softuni.bg/trainings/3840/programming-fundamentals-with-python-september
 
 Online judge system - https://judge.softuni.org/
 
-<a href="https://github/MitkoVtori>GitHub</a>"
+<a href="https://github/MitkoVtori>GitHub"</a>
