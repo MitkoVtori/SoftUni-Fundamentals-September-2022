@@ -4,7 +4,7 @@ helmet_price = float(input())
 sword_price = float(input())
 shield_price = float(input())
 armor_price = float(input())
-# Here we count how many times he broke hsi shield.
+# Here we count how many times he broke his shield.
 shield_broken = 0
 # These are our equipment costs.
 expenses = 0
