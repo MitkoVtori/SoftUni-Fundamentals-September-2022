@@ -1,8 +1,8 @@
-n = int(input())
+lines = int(input())
 tub_capacity = 255 # Liters
 total_water = 0 # Liters
 
-for i in range(n):
+for capacity in range(lines):
     water = float(input())
 
     if water <= tub_capacity:
