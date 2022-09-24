@@ -1,6 +1,6 @@
-n = int(input())
+lines = int(input())
 
-for i in range(n):
+for strings in range(lines):
     string = str(input())
     if ',' in string or '.' in string or '_' in string:
         print(f"{string} is not pure!")
