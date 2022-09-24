@@ -1,7 +1,7 @@
-n = int(input())
+lines = int(input())
 balanced = 0
 last_bracket = ''
-for i in range(n):
+for brackets in range(lines):
     string = input()
     if string == "(":
         balanced += 1
