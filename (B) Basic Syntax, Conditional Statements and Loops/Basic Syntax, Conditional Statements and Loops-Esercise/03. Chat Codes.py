@@ -1,6 +1,6 @@
-n = int(input())
+lines = int(input())
 
-for i in range(n):
+for codes in range(lines):
     code = int(input())
     if code == 88:
         print("Hello")
