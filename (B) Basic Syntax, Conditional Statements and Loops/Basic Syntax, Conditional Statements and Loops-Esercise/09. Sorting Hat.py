@@ -1,7 +1,9 @@
 name = input()
+voldemort = False
 
 while name != "Welcome!":
     if name == "Voldemort":
+        voldemort = True
         print("You must not speak of that name!")
         break
     elif len(name) < 5:
@@ -15,5 +17,5 @@ while name != "Welcome!":
 
     name = input()
 
-if name != "Voldemort":
+if not voldemort:
     print("Welcome to Hogwarts.")
