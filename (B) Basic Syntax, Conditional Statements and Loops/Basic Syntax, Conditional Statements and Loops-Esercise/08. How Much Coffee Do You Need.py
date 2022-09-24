@@ -1,6 +1,6 @@
 coffee = 0
 lower_case = ["dog", "cat", "movie", "coding"]
-upper_case = ["DOG", "CAT", "MOVIE", "CODING"]
+upper_case = str(lower_case).upper()
 command = str(input())
 while command != "END":
     if command in lower_case:
