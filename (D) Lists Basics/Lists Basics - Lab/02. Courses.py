@@ -2,7 +2,7 @@ n = int(input())
 # EMPTY LIST:
 courses = list() # or []
 
-for i in range(n):
-    course = input()
-    courses.append(course) # adding the course to the list
+for course in range(n):
+    curr_course = input()
+    courses.append(curr_course) # adding the course to the list
 print(courses)
