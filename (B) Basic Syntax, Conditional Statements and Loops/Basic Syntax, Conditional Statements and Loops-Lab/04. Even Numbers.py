@@ -1,10 +1,10 @@
-n = int(input())
+lines = int(input())
 
-for i in range(n):
-    num = int(input())
-    if num % 2 != 0:
-        print(f"{num} is odd!")
+for numbers in range(lines):
+    number = int(input())
+    if number % 2 != 0:
+        print(f"{number} is odd!")
         break
 
-if num % 2 == 0:
+else:
     print("All numbers are even.")
