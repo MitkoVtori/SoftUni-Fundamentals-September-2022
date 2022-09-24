@@ -1,5 +1,8 @@
 word = input()
-list_capitals = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+list_capitals = []
+# Making this for loop so I don't have to write all the capital letters
+for capitals in range(65, 90 + 1):
+    list_capitals.append(chr(capitals))
 indices = []
 for index, value in enumerate(word):
     if value in list_capitals:
