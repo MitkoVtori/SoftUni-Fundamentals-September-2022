@@ -1,8 +1,8 @@
-n = int(input())
+lines = int(input())
 list_positives = []
 list_negatives = []
 
-for i in range(n):
+for number in range(lines):
     num = int(input())
     if num < 0:
         list_negatives.append(num)
