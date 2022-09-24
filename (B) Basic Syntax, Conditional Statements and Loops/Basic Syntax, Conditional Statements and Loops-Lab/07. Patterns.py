@@ -1,7 +1,7 @@
 num = int(input())
 
-for i in range(1, num + 1):
-    print(i * '*')
+for start_stars in range(1, num + 1):
+    print(start_stars * '*')
 
-for n in range(num - 1, 0, - 1):
-    print(n * '*')
+for end_stars in range(num - 1, 0, - 1):
+    print(end_stars * '*')
