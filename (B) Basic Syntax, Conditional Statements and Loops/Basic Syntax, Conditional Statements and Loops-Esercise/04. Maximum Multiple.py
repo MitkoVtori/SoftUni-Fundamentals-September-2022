@@ -1,9 +1,9 @@
 divisior = int(input())
 boundary = int(input())
-curr_num = boundary
+current_number = boundary
 
-for i in range(boundary, divisior, - 1):
-    if 0 < curr_num <= boundary and curr_num % divisior == 0:
-        print(curr_num)
+for curr_num in range(boundary, divisior, - 1):
+    if 0 < current_num <= boundary and current_number % divisior == 0:
+        print(current_number)
         break
-    curr_num -= 1
+    current_number -= 1
