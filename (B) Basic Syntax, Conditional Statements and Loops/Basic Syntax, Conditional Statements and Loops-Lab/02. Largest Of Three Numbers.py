@@ -1,10 +1,10 @@
 import sys
 
-max_num = -sys.maxsize
+max_number = -sys.maxsize
 
-for i in range(3):
-    num = float(input())
+for largest in range(3):
+    number = float(input())
 
-    if num >= max_num:
-        max_num = num
-print(f"{max_num:.0f}")
+    if number > max_number:
+        max_number = number
+print(f"{max_number:.0f}")
