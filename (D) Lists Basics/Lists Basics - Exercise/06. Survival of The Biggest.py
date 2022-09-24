@@ -1,12 +1,12 @@
 numbers = input().split()
 nums = []
 
-for n in numbers:
-    nums.append(int(n))
+for number in numbers:
+    nums.append(int(number))
 
 remover = int(input())
 
-for _ in range(remover):
+for removing in range(remover):
     nums.remove(min(nums))
 
 print(*nums, sep=', ')
