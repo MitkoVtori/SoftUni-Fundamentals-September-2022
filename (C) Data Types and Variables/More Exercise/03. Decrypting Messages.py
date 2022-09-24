@@ -1,8 +1,8 @@
 key = int(input())
-n = int(input())
+lines = int(input())
 string = ''
 
-for word in range(n):
+for word in range(lines):
     letter = ord(str(input())) + key
     string += chr(letter)
 
