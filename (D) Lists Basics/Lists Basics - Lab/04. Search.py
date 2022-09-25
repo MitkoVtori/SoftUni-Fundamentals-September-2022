@@ -1,12 +1,13 @@
-n = int(input())
-word = input()
-words = []
-filtered_words = []
+number = int(input())
+key = input()
+list_all = []
+filtered_list = []
 
-for i in range(n):
+for word in range(number):
     string = input()
-    if word in string:
-        filtered_words.append(string)
-    words.append(string)
-print(words)
-print(filtered_words)
+    list_all.append(string)
+    if key in string:
+        filtered_list.append(string)
+
+print(list_all)
+print(filtered_list)
