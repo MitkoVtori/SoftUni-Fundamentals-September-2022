@@ -1,4 +1,4 @@
-n = int(input())
+lines = int(input())
 command_even = "even"
 command_odd = "odd"
 command_positive = "positive"
@@ -6,7 +6,7 @@ command_negative = "negative"
 my_list = []
 filtered_numbers = []
 
-for num in range(n):
+for num in range(lines):
     curr_num = int(input())
     my_list.append(curr_num)
 
