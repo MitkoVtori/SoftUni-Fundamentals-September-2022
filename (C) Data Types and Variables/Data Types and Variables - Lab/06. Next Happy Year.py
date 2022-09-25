@@ -6,7 +6,7 @@ while not happy_year:
     set_year = set()
 
     for years in range(len(str(year))):
-        set_year.add(str(year)[i])
+        set_year.add(str(year)[years])
 
         happy_year = len(set_year) == len(str(year))
 
