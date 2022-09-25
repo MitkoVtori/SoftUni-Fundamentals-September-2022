@@ -1,12 +1,12 @@
-numbers = input().split()
-nums = []
+list_numbers = input().split()
+big_numbers = []
 
-for number in numbers:
-    nums.append(int(number))
+for number in list_numbers:
+    big_numbers.append(int(number))
 
 remover = int(input())
 
 for removing in range(remover):
-    nums.remove(min(nums))
+    big_numbers.remove(min(big_numbers))
 
 print(*nums, sep=', ')
