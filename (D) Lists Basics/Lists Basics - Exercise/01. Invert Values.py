@@ -1,6 +1,6 @@
-num = input().split()
-my_list = []
+string = input().split(' ')
+invert_values = []
 
-for number in num:
-    my_list.append(-int(number))
-print(my_list)
+for number in string:
+    invert_values.append(-int(number))
+print(invert_values)
