@@ -21,9 +21,7 @@ def check_win(board, player):
     if secondary_diagonal.count(player) == 3:
         return True
 
-    return False
-
-
+    
 board = []
 for winner in range(3):
     board.append(input().split())
