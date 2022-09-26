@@ -5,8 +5,8 @@ final_list = []
 for numbers in list_numbers:
     if numbers != '0':
         final_list.append(int(numbers))
-    else:
-        zero_cnt += 1
+        continue
+    zero_cnt += 1
 
 for zeros in range(zero_cnt):
     final_list.append(0)
