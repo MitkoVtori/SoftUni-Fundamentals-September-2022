@@ -4,7 +4,7 @@ print(rounded_numbers)
 
 
 # On one line:
-print(list(map(lambda x: round(float(x)), input().split(" "))))
+# print(list(map(lambda x: round(float(x)), input().split(" "))))
 
 
 # Other way to solve it:
