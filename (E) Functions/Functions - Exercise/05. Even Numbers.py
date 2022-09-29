@@ -6,4 +6,4 @@ print(even_numbers)
 
 
 # on one line
-print(list(filter(lambda x: x % 2 == 0, map(int, input().split(' ')))))
+# print(list(filter(lambda x: x % 2 == 0, map(int, input().split(' ')))))
