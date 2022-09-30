@@ -12,4 +12,4 @@ Online judge system - https://judge.softuni.org/
 
 <a href="https://github.com/MitkoVtori">My GitHub</a>
 <br>
-SoftUni GitHub: <a href="https://github.com/SoftUni">SoftUni GitHub</a>
+<a href="https://github.com/SoftUni">SoftUni GitHub</a>
