@@ -6,7 +6,7 @@
 <a href="https://softuni.bg/trainings/opencourses?filterby=All&category=0">SoftUni courses & modules<a/>
 including free courses programming basics with Python, C#, Java & JavaScript.
 
-<a href="https://softuni.bg"><img src="https://softuni.bg/trainings/3840/programming-fundamentals-with-python-september-2022" /></a>
+<a href="https://softuni.bg/"><img src="https://softuni.bg/trainings/3840/programming-fundamentals-with-python-september-2022" /></a>
 
 Online judge system - https://judge.softuni.org/
 
