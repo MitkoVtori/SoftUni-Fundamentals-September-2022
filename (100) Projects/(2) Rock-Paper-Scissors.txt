@@ -1,0 +1,1 @@
+<a href="https://github.com/MitkoVtori/Rock-Paper-Scissors-version-1.2.5"> <img width="400px" alt="My GitHub Repo" src="https://github-readme-stats.vercel.app/api/pin/?username=MitkoVtori&theme=radical&repo=Rock-Paper-Scissors-version-1.2.5" /> </a>
