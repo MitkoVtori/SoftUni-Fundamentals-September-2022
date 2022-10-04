@@ -1,1 +1,1 @@
-<a href="https://github.com/MitkoVtori/Mitko.Vtori-World"> <img width="400px" alt="My GitHub Repo" src="https://github-readme-stats.vercel.app/api/pin/?username=MitkoVtori&theme=radical&repo=Mitko.Vtori-World /> </a>
+<a href="https://github.com/MitkoVtori/Mitko.Vtori-World"> <img width="400px" alt="My GitHub Repo" src="https://github-readme-stats.vercel.app/api/pin/?username=MitkoVtori&theme=radical&repo=Mitko.Vtori-World" /> </a>
