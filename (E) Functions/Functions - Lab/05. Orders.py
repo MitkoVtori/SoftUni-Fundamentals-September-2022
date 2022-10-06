@@ -12,5 +12,7 @@ def total_price(bought, quantity):
 
     print(f"{result:.2f}")
 
-
-total_price(input(), float(input()))
+    
+bought = input()
+quantity = float(input())
+total_price(bought, quantity)
