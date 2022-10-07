@@ -1,6 +1,6 @@
-def characters(a, b):
+def characters(char1, char2):
 
-    for chars in range(a + 1, b):
+    for chars in range(char1 + 1, char2):
         print(chr(chars), end=' ')
 
 
