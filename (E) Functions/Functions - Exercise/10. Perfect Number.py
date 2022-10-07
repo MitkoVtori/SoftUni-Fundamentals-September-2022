@@ -5,8 +5,7 @@ def perfect_num(num, divisor):
 
     if divisor == num:
         return "We have a perfect number!"
-    else:
-        return "It's not so perfect."
+    return "It's not so perfect."
 
     
 number = int(input())
