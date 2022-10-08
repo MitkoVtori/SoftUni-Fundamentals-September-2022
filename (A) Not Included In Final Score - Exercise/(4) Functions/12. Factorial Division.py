@@ -1,15 +1,12 @@
-def factorial_number(first_number, second_number):
-    for factorial in range(1, first_number):
-        first_number *= factorial
-
-    for factorial_second in range(1, second_number):
-        second_number *= factorial_second
-
-    result = first_number / second_number
-
-    return f"{result:.2f}"
+def factorial_division(first: int, second: int):
+    for factorial in range(1, first):
+        first *= factorial
+    for factorial in range(1, second):
+        second *= factorial
+    division = first / second
+    return f'{division:.2f}'
 
 
-first_num = int(input())
-second_num = int(input())
-print(factorial_number(first_num, second_num))
+first_number = int(input())
+second_number = int(input())
+print(factorial_division(first_number, second_number))
