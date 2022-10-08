@@ -1,9 +1,9 @@
 number_lines = int(input())
 
 
-def tribonacci(n):
+def tribonacci(number):
     tribo_list = [1, 0, 0]
-    for number in range(n):
+    for num in range(number):
         next_num = sum(tribo_list)
         print(next_num, end=' ')
         tribo_list.append(next_num)
