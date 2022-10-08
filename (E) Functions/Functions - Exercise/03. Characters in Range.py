@@ -1,9 +1,9 @@
-def characters(char1, char2):
+def characters(first, second):
 
-    for chars in range(char1 + 1, char2):
+    for chars in range(ord(first) + 1, ord(second)):
         print(chr(chars), end=' ')
 
 
-first_char = ord(input())
-last_char = ord(input())
-characters(first_char, last_char)
+first_character = input()
+second_character = input()
+characters(first_character, second_character)
