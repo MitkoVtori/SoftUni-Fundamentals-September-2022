@@ -1,5 +1,4 @@
 targets = list(map(int, input().split(' ')))
-out_of_range = False
 
 while True:
     command = input()
