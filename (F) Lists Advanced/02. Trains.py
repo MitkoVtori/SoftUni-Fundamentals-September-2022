@@ -1,20 +1,22 @@
-number_wagons = int(input())
-train = [0 for wagons in range(number_wagons)]
+train = int(input())
+wagons = [0] * train
 
-command = input()
-while command != "End":
+while True:
+    command = input().split(' ')
 
-    data = command.split(' ')
+    if command[0] == 'End':
+        break
 
-    if 'add' in data:
-        train[-1] += int(data[-1])
+    index = int(command[1])
+    people = int(command[-1])
 
-    elif 'insert' in data:
-        train[int(data[1])] += int(data[-1])
+    if command[0] == 'add':
+        wagons[-1] += index
 
-    else:
-        train[int(data[1])] -= int(data[-1])
+    if command[0] == 'insert':
+        wagons[index] += people
 
-    command = input()
+    if command[0] == 'leave':
+        wagons[index] -= people
 
-print(train)
+print(wagons)
