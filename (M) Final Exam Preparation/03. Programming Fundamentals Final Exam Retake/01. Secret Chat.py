@@ -5,6 +5,7 @@ while command != "Reveal":
     error = False
 
     current_command = command.split(':|:')
+    
     instruction = current_command[0]
     index = current_command[1]
     substring = current_command[1]
